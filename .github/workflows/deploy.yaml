@@ -25,7 +25,7 @@ jobs:
     needs: [ prepare ]
     uses: dlpco/app-github-workflows/.github/workflows/go-docker-image-build.yml@go-docker-image-build/stable
     with:
-      application: projeto-template 
+      application: auto-test-rc2 
       cmds: '["api"]'
       push: true
       tag: ${{ needs.prepare.outputs.tag }}
