@@ -1,1 +1,1 @@
-# go-project-template
+# auto-test-rc2
